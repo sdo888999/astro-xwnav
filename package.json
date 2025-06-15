@@ -1,0 +1,51 @@
+{
+  "name": "astro-xwnav",
+  "type": "module",
+  "version": "1.0.0",
+  "packageManager": "pnpm@10.12.1",
+  "description": "Astro navigation site by zywe",
+  "keywords": [
+    "astro",
+    "navigation",
+    "react",
+    "tailwind"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "astro": "astro",
+    "build": "astro build",
+    "dev": "astro dev",
+    "preview": "astro preview",
+    "sync": "astro sync"
+  },
+  "dependencies": {
+    "@astrojs/react": "^4.3.0",
+    "@astrojs/sitemap": "^3.4.0",
+    "astro": "^5.8.1",
+    "astro-seo": "^0.8.4",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@astrojs/tailwind": "^6.0.2",
+    "@types/jsdom": "^21.1.7",
+    "@types/react": "^19.1.5",
+    "@types/react-dom": "^19.1.5",
+    "autoprefixer": "^10.4.21",
+    "chalk": "^5.4.1",
+    "cheerio": "^1.0.0",
+    "p-limit": "^6.2.0",
+    "postcss": "^8.5.3",
+    "sharp": "^0.34.2",
+    "svgo": "^3.3.2",
+    "tailwindcss": "^3.4.17",
+    "terser": "^5.39.2",
+    "tsx": "^4.19.4",
+    "undici": "^7.10.0"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "sharp"
+    ]
+  }
+}
